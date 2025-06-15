@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sachin Portfolio website</title>
+    <meta name="author" content="Portfolio" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="src/styles.css">
+    
+    <meta property="og:title" content="Professional Portfolio" />
+    <meta property="og:description" content="Professional Portfolio - Full Stack Developer" />
+    <meta property="og:type" content="website" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">SACHIN </span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name">Sachin Pandey</span>
+            <span class="typing-container">
+              <span class="typed-text"></span>
+              <span class="cursor">&nbsp;</span>
+            <!-- </span> -->
+          </h1>
+          <p class="hero-description">
+         I bring together sleek design and smart technology to build engaging digital solutions.
+         Let’s team up to create something amazing.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="bitmoji-container">
+            <img src="imggg/sachin.jpeg" alt=" Developer" class="bitmoji-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Passionate developer with a love for creating</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a Frontend developer with 10 months of experience creating web applications 
+              that solve real-world problems. I specialize in modern JavaScript frameworks.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies, contributing to 
+              open-source projects, or sharing my knowledge through blog posts and mentoring.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number" data-target="5">5</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-target="3">Fresher</span>
+                <span class="stat-label">Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-target="5">5+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i><img src="imggg/sachin.jpeg" style="width: 350px; height: 350px; border-radius: 50%; object-fit: cover;" alt=""></i>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Education</h2>
+          <p class="section-subtitle">Tools, technologies and educational background</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3>Frameworks</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+             
+              <span class="skill-tag">Angular</span>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3>Libraries & Tools</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">Git</span>
+      
+            </div>
+          </div>
+
+          <div class="skill-category education">
+            <h3>High School</h3>
+            <div class="education-content">
+              <div class="education-item">
+                <span class="degree">10th Grade</span>
+                <span class="major">General Studies</span>
+                <span class="year">2020</span>
+                <span class="institution">B Indian Public School</span>
+                <span class="grade">Percentage: 75%</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category education">
+            <h3>Intermediate</h3>
+            <div class="education-content">
+              <div class="education-item">
+                <span class="degree">12th Grade</span>
+                <span class="major">Science (PCM)</span>
+                <span class="year">2022</span>
+                <span class="institution">B Indian public School</span>
+                <span class="grade">Percentage: 80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category education">
+            <h3>BTech Degree</h3>
+            <div class="education-content">
+              <div class="education-item">
+                <span class="degree">Bachelor of Technology</span>
+                <span class="major">Information Technology</span>
+                <span class="year">2023 - 2027</span>
+                <span class="institution">Dr. Ram Mahohar Lohia Avadh University</span>
+                <span class="grade">CGPA: 7</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+      <div class="project-card">
+        <img src="imggg/rejoice.png" alt="Paste Screenshot">
+   
+        <div class="project-content">
+          <h4>Paste-App</h4>
+          <p> --->Developed a fully responsive and visually appealing agency website using modern web technologies. The
+ project  is majorly showcase of their agency work and reviews of their happy customer.  In this project we Emphasized responsiveness across devices, and modular code
+ structure.</p>
+ <br>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+          <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px;">
+            
+            <a href="#" class="social-link" ><i class="fab fa-github fa-2x"></i></a>
+            <p>Source Code</p>
+          </div>
+
+
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      <div class="project-card">
+        <img src="imggg/portFolio.png" alt="Code Editor Application Screenshot">
+        <div class="project-content">
+          <h4>Portfolio Website</h4>
+          <p> --->A modern, responsive portfolio website featuring smooth animations, 
+             dynamic content loading, and an interactive contact form.</p>
+          <!-- <p>A modern web-based code editor with syntax highlighting, 
+             multiple language support, and real-time collaboration features.</p> -->
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+          </ul>
+          <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px;">
+            
+            <a href="#" class="social-link" ><i class="fab fa-github fa-2x"></i></a>
+            <p>Source Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="imggg/todo.png" alt="Portfolio Website Screenshot">
+        <div class="project-content">
+          <h4>TO DO List</h4>
+          <p>---> A simple To Do list app where we can add aur delete aur to do works . </p>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            
+          </ul>
+          <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px;">
+            
+            <a href="#" class="social-link" ><i class="fab fa-github fa-2x"></i></a>
+            <p>Source Code</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="project-card">
+        <img src="" alt="Will Update Soon">
+        <div class="project-content">
+          <h4 style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px;" >
+          Project Will Update Soon
+          </h4>
+          <p></p>
+          <ul>
+            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px;">
+            
+              <a href="#" class="social-link" ><i class="fab fa-github fa-2x"></i></a>
+              <p>Source Code</p>
+            </div>
+          </ul>
+        </div>
+      </div>
+       
+
+
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's discuss your next project</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>sp0552451@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>(+91) 7388209690</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>New Delhi, India.</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Sarthakswaroop-16" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="linkedin.com/in/sachin-pandey-954467289" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="" required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="" required>
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="" required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="" rows="5" required></textarea>
+              <label for="message">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading">Sending...</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Sachin Pandey. All rights reserved.</p>
+          <p>Built with  using HTML, CSS , JavaScript & TypeScript</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/src/script.js"></script>
+  </body>
+</html>
